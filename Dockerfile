@@ -24,4 +24,6 @@ RUN apk update && apk add git
 
 RUN bundle install --path vendor/bundle
  
+EXPOSE 8080
+
 CMD [ "bundle", "exec", "rackup", "-p" , "8080" ]
