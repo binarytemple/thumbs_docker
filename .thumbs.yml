@@ -1,0 +1,3 @@
+minimum_reviewers: 2  # minimum code reviews required before auto merge
+build_steps: # your custom build steps
+ - "true"
